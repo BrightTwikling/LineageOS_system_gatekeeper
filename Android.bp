@@ -21,6 +21,7 @@ package {
 cc_library_shared {
     name: "libgatekeeper",
     vendor_available: true,
+    recovery_available: true,
     host_supported: true,
     srcs: [
         "gatekeeper_messages.cpp",
